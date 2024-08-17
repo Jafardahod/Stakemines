@@ -41,19 +41,21 @@ The stake diamond game is a web-based game where players can add a monetary amou
   ```bash
    cd stake-diamond-game
    ```
-3.Open the index.html file in your web browser to start the game.
-4.How to Play
-Add Amount: Enter an amount in the input field and click "Add Amount" to start playing.
-Click Tiles: Click on the tiles. Each click may result in a win or a game over.
-Game Over: If you click on a losing tile, the game will display a "GAME OVER!" message. You can restart the game by clicking the "Restart" button.
-5.Game Logic
-A random number between 1 and 12 is generated at the start of the game.
-The player clicks on one of the 12 tiles.
-If the player clicks on the tile corresponding to the random number, the game ends in a loss.
-If the player avoids the losing tile, they can win money based on the number of tiles clicked.
-6.Contributing
-Contributions are welcome! If you have ideas for improvements or additional features, feel free to fork the repository, make changes, and submit a pull request.
+3. Open the `index.html` file in your web browser to start the game.
 
-7.License
-This project is licensed under the MIT License. See the LICENSE file for details.
+4. **How to Play**
+   - **Add Amount**: Enter an amount in the input field and click "Add Amount" to start playing.
+   - **Click Tiles**: Click on the tiles. Each click may result in a win or a game over.
+   - **Game Over**: If you click on a losing tile, the game will display a "GAME OVER!" message. You can restart the game by clicking the "Restart" button.
 
+5. **Game Logic**
+   - A random number between 1 and 12 is generated at the start of the game.
+   - The player clicks on one of the 12 tiles.
+   - If the player clicks on the tile corresponding to the random number, the game ends in a loss.
+   - If the player avoids the losing tile, they can win money based on the number of tiles clicked.
+
+6. **Contributing**
+   Contributions are welcome! If you have ideas for improvements or additional features, feel free to fork the repository, make changes, and submit a pull request.
+
+7. **License**
+   This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
