@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0f212e   ;
+}
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* Columns */
+[class*='col-'] {
+    padding-left: 15px;
+    padding-right: 15px;
+    flex: 1;
+}
+
+/* Custom Column Widths */
+.col-1 { flex: 0 0 8.33%; }
+.col-2 { flex: 0 0 16.66%; }
+.col-3 { flex: 0 0 24.25%; }
+.col-4 { flex: 0 0 33.33%; }
+.col-5 { flex: 0 0 41.66%; }
+.col-6 { flex: 0 0 50%; }
+.col-7 { flex: 0 0 58.33%; }
+.col-8 { flex: 0 0 66.66%; }
+.col-9 { flex: 0 0 75%; }
+.col-10 { flex: 0 0 83.33%; }
+.col-11 { flex: 0 0 91.66%; }
+.col-12 { flex: 0 0 100%; }
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .col-sm-1 { flex: 0 0 8.33%; }
+    .col-sm-2 { flex: 0 0 16.66%; }
+    .col-sm-3 { flex: 0 0 24%; }
+    .col-sm-4 { flex: 0 0 33.33%; }
+    .col-sm-5 { flex: 0 0 41.66%; }
+    .col-sm-6 { flex: 0 0 50%; }
+    .col-sm-7 { flex: 0 0 58.33%; }
+    .col-sm-8 { flex: 0 0 66.66%; }
+    .col-sm-9 { flex: 0 0 75%; }
+    .col-sm-10 { flex: 0 0 83.33%; }
+    .col-sm-11 { flex: 0 0 91.66%; }
+    .col-sm-12 { flex: 0 0 100%; }
+}
+
+@media (max-width: 576px) {
+    .col-xs-1 { flex: 0 0 8.33%; }
+    .col-xs-2 { flex: 0 0 16.66%; }
+    .col-xs-3 { flex: 0 0 23%; }
+    .col-xs-4 { flex: 0 0 33.33%; }
+    .col-xs-5 { flex: 0 0 41.66%; }
+    .col-xs-6 { flex: 0 0 50%; }
+    .col-xs-7 { flex: 0 0 58.33%; }
+    .col-xs-8 { flex: 0 0 66.66%; }
+    .col-xs-9 { flex: 0 0 75%; }
+    .col-xs-10 { flex: 0 0 83.33%; }
+    .col-xs-11 { flex: 0 0 91.66%; }
+    .col-xs-12 { flex: 0 0 100%; }
+}
+
+
+.brr{
+    /* border: 2px solid black; */
+    margin: 3px;
+    height: 150px;
+}
+
+.piece{
+    border-radius: 10px;
+    background-color: #2f4553;
+    box-shadow: 0px 5px 1px #213743;
+}
+.piececlicked{
+    border-radius: 10px;
+    background-color: rgba(0, 231, 1, 1);
+    box-shadow: 0px 5px 1px rgb(140, 237, 140);
+}
+.info{
+    background-color: #212121;
+    border: 2px solid green;
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.amtinput{
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+
+button{
+    margin-left: 10px;
+    height: auto;
+    border: 2px solid green;
+    background-color: #212121;
+    color: white;
+    padding: 5px;
+
+}
