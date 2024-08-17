@@ -24,7 +24,7 @@ row.addEventListener('click', (e) => {
         }
         else {
             if(gameClickcounter == random){
-                console.log(random)
+                // console.log(random)
                 gameover(e)
             }
             else{
@@ -104,12 +104,38 @@ function gamelogic(e) {
 function gameover(e){
     
     e.target.setAttribute('class', 'col-3 col-sm-3 col-xs-3 brr piececlickedred')
-    // resetgame()
+    resetgame()
+    
+    // alert('Sorry Game Over')
+}
+
+function resetgame(){
+
     amtjs = 0
     winningsjs = 0
     random = 0
     amntremain.innerHTML = `Amount Remaining: ${amtjs}`
     winnings.innerHTML = `Total Winnings: ${winningsjs}`
     gameClickcounter = 0
-    // alert('Sorry Game Over')
+    showgameover()
+}
+
+
+
+function showgameover(){
+    let godiv = document.querySelector('.gameover')
+
+    godiv.style.display = 'flex'
+
+    restart()
+}
+
+
+
+function restart(){
+    let restart_btn = document.querySelector('.res')
+    restart_btn.addEventListener('click', ()=>{
+        location.reload();
+    })
+
 }

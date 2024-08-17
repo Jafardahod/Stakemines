@@ -17,7 +17,7 @@ body{
 /* Row */
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;   
     margin-left: -15px;
     margin-right: -15px;
 }
@@ -118,4 +118,18 @@ button{
     color: white;
     padding: 5px;
 
+}
+
+.gameover{
+    display: none;
+    justify-content: center;
+    align-items: center ;
+    background-color: lightgreen;
+    height: 100px;
+    width: 400px;
+    border: 2px solid green;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
