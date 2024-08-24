@@ -19,8 +19,8 @@ for (let i = 0; i < 12; i++) {
 // on click piece function
 row.addEventListener('click', (e) => {
     if (e.target.className == 'col-3 col-sm-3 col-xs-3 brr piece') {
-        if (amtjs == 0) {
-            alert('Please Pay 1200rs to Play a the game')
+        if (amtjs < 100) {
+            alert('Please Pay Atleast 100rs to Play a the game')
         }
         else {
             if(gameClickcounter == random){
